@@ -5,5 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ariya Hidayat"
+  "author": "Ariya Hidayat",
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
 }
