@@ -9,6 +9,7 @@
   },
   "author": "Ariya Hidayat",
   "devDependencies": {
+    "jasmine": "3.5.0",
     "prettier": "2.0.5"
   },
   "prettier": {
