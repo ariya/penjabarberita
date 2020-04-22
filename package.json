@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npm run check-format",
+    "test": "npm run unit-tests && npm run check-format",
+    "unit-tests": "jasmine",
     "check-format": "prettier --check \"**/*.js\"",
     "format-code": "prettier --write \"**/*.js\""
   },
