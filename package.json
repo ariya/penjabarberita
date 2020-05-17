@@ -2,6 +2,7 @@
   "name": "@ariya/penjabarberita",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "Extract the article list from its raw news HTML",
   "scripts": {
     "test": "npm run unit-tests && npm run check-format",
     "unit-tests": "jasmine",
@@ -9,6 +10,28 @@
     "format-code": "prettier --write \"**/*.js\""
   },
   "author": "Ariya Hidayat",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ariya/penjabarberita.git"
+  },
+  "homepage": "https://ariya.github.io/penjabarberita",
+  "keywords": [
+    "crawler",
+    "scraper",
+    "spider",
+    "indexer",
+    "html",
+    "cheerio",
+    "news",
+    "headlines",
+    "articles"
+  ],
   "devDependencies": {
     "jasmine": "3.5.0",
     "prettier": "2.0.5"
