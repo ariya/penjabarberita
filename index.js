@@ -1,6 +1,8 @@
 const cheerio = require('cheerio');
 const tebakmasa = require('@ariya/tebakmasa');
 
+const URL = require('url').URL;
+
 const FRAGMENT_CANDIDATES = [
     'section#content article',
     '.main-content .col-md-8 article',
