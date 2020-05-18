@@ -14,7 +14,7 @@
 
 **Penjabar Berita**: [pustaka](https://www.npmjs.com/package/@ariya/penjabarberita) JavaScript untuk mendapatkan daftar artikel (judul, tautan, waktu) dari berkas HTML yang mewakili indeks berita tersebut.
 
-Penjabar Berita dikhususkan untuk mengolah surat kabar daring Indonesia. Saat ini, yang bisa diproses adalah indeks berita dari Antara, BBC Indonesia, CNBC Indonesia, CNN Indonesia, Intisari, Jawa Pos, Kompas, Liputan 6, Republika, Tempo, The Conversations.
+Penjabar Berita dikhususkan untuk mengolah surat kabar daring Indonesia. Saat ini, yang bisa diproses adalah indeks berita dari Antara, BBC Indonesia, CNBC Indonesia, CNN Indonesia, Intisari, Jawa Pos, Kompas, Liputan 6, Republika, Tempo, The Conversations, TurnBackHoax.
 
 Instalasi: `npm install @ariya/penjabarberita`.
 
@@ -52,7 +52,7 @@ yang akan menghasilkan keluaran seperti:
 
 **Penjabar Berita**: a JavaScript [library](https://www.npmjs.com/package/@ariya/penjabarberita) is used to extract the article list (title, link, timestamp) from its raw news HTML.
 
-Penjabar Berita is geared towards processing the news index of online news sites in Indonesia, currently supporting Antara, BBC Indonesia, CNBC Indonesia, CNN Indonesia, Intisari, Jawa Pos, Kompas, Liputan 6, Republika, Tempo, The Conversations.
+Penjabar Berita is geared towards processing the news index of online news sites in Indonesia, currently supporting Antara, BBC Indonesia, CNBC Indonesia, CNN Indonesia, Intisari, Jawa Pos, Kompas, Liputan 6, Republika, Tempo, The Conversations, TurnBackHoax.
 
 
 Installation: `npm install @ariya/penjabarberita`.

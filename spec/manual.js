@@ -14,6 +14,7 @@ names.push('liputan6');
 names.push('republika');
 names.push('tempo');
 names.push('theconversation');
+names.push('turnbackhoax');
 
 let allArticles = [];
 

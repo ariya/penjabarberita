@@ -19,6 +19,7 @@ const BLOCK_CANDIDATES = [
     'a.news-list__link',
     'a h2',
     'h2 a',
+    'h3 a',
     'h4 a',
     'a' // fallback, be careful
 ];
@@ -30,7 +31,8 @@ const TIMESTAMP_CANDIDATES = [
     '.article__date',
     'h6',
     '.date',
-    '.post-list__time'
+    '.post-list__time',
+    '.mh-meta'
 ];
 
 function collect($, selectors) {
@@ -71,7 +73,7 @@ function getLink(block, a) {
 }
 
 function getTimestamp($$) {
-    const parseTime = (el) => tebakmasa(el.text());
+    const parseTime = (el) => tebakmasa(el.text().trim());
     let timestamp = identify($$, TIMESTAMP_CANDIDATES, parseTime);
     if (timestamp <= 0 && $$('a').length < 3) timestamp = identify($$, ['span'], parseTime);
     return timestamp;
