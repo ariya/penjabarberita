@@ -10,6 +10,7 @@ names.push('cnnindonesia');
 names.push('intisari');
 names.push('jawapos');
 names.push('kompas');
+names.push('kontan');
 names.push('liputan6');
 names.push('republika');
 names.push('tempo');

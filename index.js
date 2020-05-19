@@ -11,13 +11,15 @@ const FRAGMENT_CANDIDATES = [
     '.set_subkanal',
     'section li .card',
     '.news-list__item',
-    '.recent-news .post-list__desc'
+    '.recent-news .post-list__desc',
+    '#load_berita .ket'
 ];
 
 const BLOCK_CANDIDATES = [
     'h3:not([class*=news]) a',
     'a.news-list__link',
     'a h2',
+    'h1 a',
     'h2 a',
     'h3 a',
     'h4 a',
@@ -32,7 +34,8 @@ const TIMESTAMP_CANDIDATES = [
     'h6',
     '.date',
     '.post-list__time',
-    '.mh-meta'
+    '.mh-meta',
+    '.fs14'
 ];
 
 function collect($, selectors) {
