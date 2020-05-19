@@ -23,7 +23,7 @@ Misalkan berkas `data.html` didapatkan dengan mengambil indeks berita dari laman
 const fs = require('fs');
 const penjabarberita = require('@ariya/penjabarberita');
 
-const buffer = fs.readFileSync('data.htm', 'utf-8');
+const buffer = fs.readFileSync('data.html', 'utf-8');
 const list = penjabarberita(buffer.toString());
 console.log(list.map(n => n.title));
 ```
@@ -56,7 +56,7 @@ Assuming `data.html` is obtained by retrieving the news index from Kompas, for i
 const fs = require('fs');
 const penjabarberita = require('@ariya/penjabarberita');
 
-const buffer = fs.readFileSync('data.htm', 'utf-8');
+const buffer = fs.readFileSync('data.html', 'utf-8');
 const list = penjabarberita(buffer.toString());
 console.log(list.map(n => n.title));
 ```
