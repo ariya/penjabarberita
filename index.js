@@ -86,12 +86,13 @@ function findMeta($, meta) {
     return [].slice.call(els);
 }
 
-function penjabarBerita(content) {
+function penjabarBerita(content, baseURL) {
     const $ = cheerio.load(content || '');
 
-    const baseURL = findMeta($, 'og:url')
-        .map((u) => 'http://' + new URL(u).hostname)
-        .shift();
+    if (!baseURL)
+        baseURL = findMeta($, 'og:url')
+            .map((u) => 'http://' + new URL(u).hostname)
+            .shift();
 
     return collect($, FRAGMENT_CANDIDATES)
         .map((html) => {
