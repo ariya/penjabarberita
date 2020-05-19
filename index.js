@@ -114,7 +114,7 @@ function penjabarBerita(content, baseURL) {
         })
         .filter(({ url }) => typeof url === 'string' && url.length > 0)
         .map(({ $$, title, url }) => {
-            return { $$, title, url: url.startsWith('/') ? baseURL + url : url };
+            return { $$, title, url: url.startsWith('/') && baseURL ? baseURL + url : url };
         })
         .map(({ $$, title, url }) => {
             return { title, url, timestamp: getTimestamp($$) };
