@@ -1,6 +1,6 @@
 # Penjabar Berita
 
-![npm (scoped)](https://img.shields.io/npm/v/@ariya/penjabarberita)
+[![npm (scoped)](https://img.shields.io/npm/v/@ariya/penjabarberita)](https://www.npmjs.com/package/@ariya/penjabarberita)
 [![GitHub license](https://img.shields.io/github/license/ariya/penjabarberita)](https://github.com/ariya/penjabarberita/blob/master/LICENSE)
 ![Tests](https://github.com/ariya/penjabarberita/workflows/Tests/badge.svg)
 
@@ -11,7 +11,7 @@
 
 ### <a name="indonesian"></a>Bahasa Indonesia
 
-**Penjabar Berita**: [pustaka JavaScript](https://www.npmjs.com/package/@ariya/penjabarberita) untuk Node.js guna mendapatkan daftar artikel (judul, tautan, waktu) dari berkas HTML yang mewakili indeks berita tersebut.
+**Penjabar Berita**: Pustaka JavaScript untuk Node.js ([@ariya/penjabarberita](https://www.npmjs.com/package/@ariya/penjabarberita)) guna mendapatkan daftar artikel (judul, tautan, waktu) dari berkas HTML yang mewakili indeks berita tersebut.
 
 Penjabar Berita dikhususkan untuk mengolah surat kabar daring Indonesia. Saat ini, yang bisa diproses adalah indeks berita dari Antara, BBC Indonesia, CNBC Indonesia, CNN Indonesia, Intisari, Jawa Pos, Kompas, Kontan, Liputan 6, Republika, Tempo, The Conversations, TurnBackHoax.
 
@@ -43,7 +43,7 @@ Di samping judul artikel (`title`), bisa juga didapatkan tautan (`url`) dan tang
 
 ### <a name="english"></a>English
 
-**Penjabar Berita**: [a JavaScript library](https://www.npmjs.com/package/@ariya/penjabarberita) for Node.js to extract the article list (title, link, timestamp) from its HTML representation.
+**Penjabar Berita**: A JavaScript library for Node.js ([@ariya/penjabarberita]) to extract the article list (title, link, timestamp) from its HTML representation.
 
 Penjabar Berita is geared towards processing the article index of online news sites in Indonesia, currently supporting Antara, BBC Indonesia, CNBC Indonesia, CNN Indonesia, Intisari, Jawa Pos, Kompas, Kontan, Liputan 6, Republika, Tempo, The Conversations, TurnBackHoax.
 
