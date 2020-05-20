@@ -1,6 +1,6 @@
 {
   "name": "@ariya/penjabarberita",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "description": "Extract the article list from its raw news HTML",
   "scripts": {
