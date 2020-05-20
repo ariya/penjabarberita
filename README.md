@@ -43,7 +43,7 @@ Di samping judul artikel (`title`), bisa juga didapatkan tautan (`url`) dan tang
 
 ### <a name="english"></a>English
 
-**Penjabar Berita**: A JavaScript library for Node.js ([@ariya/penjabarberita]) to extract the article list (title, link, timestamp) from its HTML representation.
+**Penjabar Berita**: A JavaScript library for Node.js ([@ariya/penjabarberita](https://www.npmjs.com/package/@ariya/penjabarberita)) to extract the article list (title, link, timestamp) from its HTML representation.
 
 Penjabar Berita is geared towards processing the article index of online news sites in Indonesia, currently supporting Antara, BBC Indonesia, CNBC Indonesia, CNN Indonesia, Intisari, Jawa Pos, Kompas, Kontan, Liputan 6, Republika, Tempo, The Conversations, TurnBackHoax, Viva News.
 
