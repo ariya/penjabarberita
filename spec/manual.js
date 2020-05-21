@@ -12,6 +12,7 @@ names.push('jawapos');
 names.push('kompas');
 names.push('kontan');
 names.push('liputan6');
+names.push('pikiranrakyat');
 names.push('republika');
 names.push('tempo');
 names.push('theconversation');

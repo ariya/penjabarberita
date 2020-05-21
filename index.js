@@ -13,7 +13,8 @@ const FRAGMENT_CANDIDATES = [
     '.news-list__item',
     '.recent-news .post-list__desc',
     '#load_berita .ket',
-    '#load_content li'
+    '#load_content li',
+    '.latest__item'
 ];
 
 const BLOCK_CANDIDATES = [
@@ -37,7 +38,8 @@ const TIMESTAMP_CANDIDATES = [
     '.post-list__time',
     '.mh-meta',
     '.fs14',
-    '.al-date'
+    '.al-date',
+    '.latest__date'
 ];
 
 function collect($, selectors) {
