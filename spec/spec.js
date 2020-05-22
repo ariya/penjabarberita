@@ -210,6 +210,24 @@ it('should extract indexes from Pikiran Rakyat', function () {
     });
 });
 
+it('should extract indexes from Suara', function () {
+    const articles = penjabarBerita(fixture('suara'));
+    expect(articles).toBeDefined();
+    expect(articles).not.toBeNull();
+    expect(articles).toBeInstanceOf(Array);
+    expect(articles.length).toEqual(20);
+
+    articles.forEach(function (article) {
+        expect(article.title).toBeInstanceOf(String);
+        expect(article.url).toBeInstanceOf(String);
+        expect(article.timestamp).toBeInstanceOf(Number);
+
+        expect(article.title.length).toBeGreaterThan(0);
+        expect(article.url.length).toBeGreaterThan(0);
+        expect(article.timestamp).toBeGreaterThan(1588344660000);
+    });
+});
+
 it('should extract indexes from Tempo', function () {
     const articles = penjabarBerita(fixture('tempo'));
     expect(articles).toBeDefined();

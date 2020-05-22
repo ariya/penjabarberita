@@ -14,6 +14,7 @@ names.push('kontan');
 names.push('liputan6');
 names.push('pikiranrakyat');
 names.push('republika');
+names.push('suara');
 names.push('tempo');
 names.push('theconversation');
 names.push('turnbackhoax');

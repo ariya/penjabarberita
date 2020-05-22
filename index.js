@@ -6,6 +6,7 @@ const URL = require('url').URL;
 const FRAGMENT_CANDIDATES = [
     'section#content article',
     '.main-content .col-md-8 article',
+    '#main-content .item',
     'article',
     '.article__list',
     '.set_subkanal',
@@ -39,7 +40,8 @@ const TIMESTAMP_CANDIDATES = [
     '.mh-meta',
     '.fs14',
     '.al-date',
-    '.latest__date'
+    '.latest__date',
+    '.suara-date-box'
 ];
 
 function collect($, selectors) {
