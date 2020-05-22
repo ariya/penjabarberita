@@ -83,8 +83,9 @@ function getLink(block, a) {
 
 function getTimestamp($$) {
     const parseTime = (el) => tebakmasa(el.text().trim());
-    let timestamp = identify($$, TIMESTAMP_CANDIDATES, parseTime);
-    if (timestamp <= 0 && $$('a').length < 3) timestamp = identify($$, ['span'], parseTime);
+    const timestamp = identify($$, TIMESTAMP_CANDIDATES, parseTime);
+    if (timestamp && timestamp > 0) return timestamp;
+    if ($$('a').length < 3) return identify($$, ['span'], parseTime);
     return timestamp;
 }
 
